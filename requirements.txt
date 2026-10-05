@@ -1,0 +1,12 @@
+# Video Clip Trimmer
+#
+# No external pip dependencies are strictly required!
+# The core tool runs on standard Python 3.8+ and uses FFmpeg (https://ffmpeg.org).
+#
+# Ensure ffmpeg and ffprobe are installed on your system:
+#   macOS: brew install ffmpeg
+#   Ubuntu/Debian: sudo apt update && sudo apt install -y ffmpeg
+#   Windows: winget install Gyan.FFmpeg or choco install ffmpeg
+#
+# Optional development / testing packages:
+pytest>=7.0.0
